@@ -30,4 +30,14 @@ body {
 .cards{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    justify-items: center;
+    padding:30px;
+    gap:25px;
+}
+
+.book-container{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+
 }
